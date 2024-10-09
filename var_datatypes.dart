@@ -40,18 +40,32 @@ bool isActive = true;
 // Map: A collection of key-value pairs (similar to dictionaries in Python or objects in JavaScript).
 //Map<String, int> scores = {'Alice': 95, 'Bob': 85};
 
-
-
-
 // Variables declared with final can only be set once.
 // They are initialized when accessed and can be determined at runtime.
 
- String username = 'Shekhar';  // Declare the variable globally
+String username = 'Shekhar'; // Declare the variable globally
+
+// void main() {
+//   print(username);  // Prints 'Shekhar'
+
+//   // Reassign the variable
+//   username = 'Shekhu';  // Change the value of username
+//   print(username);  // Prints 'Shekhu'
+// }
+
+/*Declare a variable called heightInFeet of type double and assign it your height in feet.
+ Then, declare another variable called heightInInches of type int and convert your height 
+ from feet to inches (1 foot = 12 inches). Print both values*/
+
+double heightInFeet = 5.8;
+int heightInInches = 70;
 
 void main() {
-  print(username);  // Prints 'Shekhar'
-  
-  // Reassign the variable
-  username = 'Shekhu';  // Change the value of username
-  print(username);  // Prints 'Shekhu'
+  print(heightInFeet);
+  print(heightInInches);
+
 }
+
+List<String> colors = ["red", "black", "yellow"];
+
+Map<String, int> scores = {"Alice": 30, "Bob": 25, "Charlie": 22};
